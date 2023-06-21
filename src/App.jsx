@@ -4,6 +4,7 @@ import Experience from './components/experience/Experience';
 import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
 import Intro from './components/intro/Intro';
+import Map from './components/map/Map';
 // import Portfolio from './components/portfolio/Portfolio';
 import Timeline1 from './components/timeline1/Timeline1';
 import Testimonials from './components/testimonials/Testimonials';
@@ -21,6 +22,7 @@ const App = () => {
       {/* <Portfolio /> */}
       <Testimonials />
       <Contact />
+	  <Map/>
       <Footer />
     </>
   )
