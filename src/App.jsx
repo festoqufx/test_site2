@@ -25,7 +25,6 @@ const App = () => {
 	  <Gallery />
 	  <PhotoViewer/>
 	  <Interest />
-	  
       {/* <Portfolio /> */}
       <Testimonials />
       <Contact />

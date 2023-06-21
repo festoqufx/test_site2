@@ -115,12 +115,10 @@ const Header = () => {
         }}
       />
 </div>
-
       <div  data-aos="fade-down" className="container header__container parallax">
-   
-
-
-
+	  <p>&nbsp;</p>
+      <p>&nbsp;</p>
+	  <p>&nbsp;</p>
         <img className="main-logo" src={logo} alt=""/>
         <h1 className='big-text'>FERDINAND ESTOQUE</h1>
         <p>&nbsp;</p>
