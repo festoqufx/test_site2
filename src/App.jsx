@@ -5,6 +5,7 @@ import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
 import Intro from './components/intro/Intro';
 import Map from './components/map/Map';
+import Interest from './components/interest/Interest';
 // import Portfolio from './components/portfolio/Portfolio';
 import Timeline1 from './components/timeline1/Timeline1';
 import Testimonials from './components/testimonials/Testimonials';
@@ -19,6 +20,7 @@ const App = () => {
       <Intro />
 	  <Timeline1 />
       <Experience />
+	  <Interest />
       {/* <Portfolio /> */}
       <Testimonials />
       <Contact />
