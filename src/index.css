@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@100;300;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Orbitron:400,500,700,900');
 
 * {
   margin: 0;
@@ -11,10 +11,10 @@
 }
 
 :root {
-  --color-bg: #1f1f38;
-  --color-bg-variant: #2c2c6c;
-  --color-primary: #4db5ff;
-  --color-primary-variant: rgba(77, 181, 255, 0.4);
+  --color-bg: #000000;
+  --color-bg-variant: #dcdcdc;
+  --color-primary: #BEBEBE;
+  --color-primary-variant: #F0F0F0;
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
 
@@ -71,7 +71,6 @@ section > h5 {
 
 section > h2 {
   color: var(--color-primary);
-  margin-bottom: 3rem;
 }
 
 .text-light {
@@ -109,11 +108,11 @@ a:hover {
   color: var(--color-bg);
 }
 
-img {
+/* img {
   display: block;
   width: 100%;
   object-fit: cover;
-}
+} */
 
 @media screen and (max-width: 1024px){
   .container {
@@ -133,4 +132,19 @@ img {
   section > h2 {
     margin-bottom: 2rem;
   }
+}
+
+
+.parallax {
+  /* The image used */
+  background-image: url('./assets/BG1.png');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
