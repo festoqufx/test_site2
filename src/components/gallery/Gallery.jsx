@@ -7,20 +7,6 @@ import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import { EffectCoverflow, Pagination } from "swiper";
-import image1 from '../../assets/1.png';
-import image2 from '../../assets/2.png';
-import image3 from '../../assets/3.png';
-import image4 from '../../assets/4.png';
-import image5 from '../../assets/5.png';
-import image6 from '../../assets/6.png';
-import image7 from '../../assets/7.png';
-import image8 from '../../assets/8.png';
-import image9 from '../../assets/9.png';
-import image10 from '../../assets/10.png';
-import image11 from '../../assets/11.png';
-import image12 from '../../assets/12.png';
-import image13 from '../../assets/13.png';
-import image14 from '../../assets/14.png';
 
 
 const Gallery = () => {
@@ -56,46 +42,46 @@ const Gallery = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src={image1} alt="" />
+          <img src={"/web/1.png"} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={image2} alt="" />
+          <img src={"/web/2.png"} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={image3} alt="" />
+          <img src={"/web/3.png"} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={image4} alt="" />
+          <img src={"/web/4.png"} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-         <img src={image5} alt="" />
+         <img src={"/web/5.png"} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-        <img src={image6} alt="" />
+        <img src={"/web/6.png"} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-        <img src={image7} alt="" />
+        <img src={"/web/7.png"} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-        <img src={image8} alt="" />
+        <img src={"/web/8.png"} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-        <img src={image9} alt="" />
+        <img src={"/web/9.png"} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-        <img src={image10} alt="" />
+        <img src={"/web/10.png"} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-        <img src={image11} alt="" />
+        <img src={"/web/11.png"} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-        <img src={image12} alt="" />
+        <img src={"/web/12.png"} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-        <img src={image13} alt="" />
+        <img src={"/web/13.png"} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-        <img src={image14} alt="" />
+        <img src={"/web/14.png"} alt="" />
         </SwiperSlide>
       </Swiper>
       </>
