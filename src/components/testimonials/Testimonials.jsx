@@ -53,6 +53,7 @@ const Testimonials = () => {
     <section id="testmonials">
       <h5>Feedback from my peers</h5>
       <h2>Testimonials</h2>
+	  <p>&nbsp;</p>
       <Swiper 
         className="container testimonials__container"
         modules={[Pagination]}
@@ -67,8 +68,8 @@ const Testimonials = () => {
               <BsLinkedin />
             </a>
           </div>
-          <h5 className='client__name' style={{ color: '#000000'}}>{test.name}</h5>
-          <small className="client__review" style={{ color: '#000000'}}>{test.test}</small>
+          <h5 className='client__name' >{test.name}</h5>
+          <small className="client__review" >{test.test}</small>
         </SwiperSlide>
         ))}
       </Swiper>
