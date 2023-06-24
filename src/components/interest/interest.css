@@ -19,6 +19,7 @@
     border: 1px solid #ccc;
     float: left;
     width: 10%;
+	border-radius: 1rem;
 }
   
 div.gallery_icons:hover {
