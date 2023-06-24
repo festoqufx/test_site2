@@ -22,7 +22,7 @@ const Footer = () => {
   const year = today.getFullYear();
   return (
     <footer data-aos="zoom-out">
-      <h1 style={{color: "black"}}>FOLLOW ME AROUND THE WEB</h1>
+      <h2 style={{color: "black"}}>FOLLOW ME AROUND THE WEB</h2>
       <p>&nbsp;</p>
       
       <div className="footer__socials">
