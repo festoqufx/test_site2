@@ -4,7 +4,7 @@ import Experience from './components/experience/Experience';
 import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
 import Intro from './components/intro/Intro';
-import Map from './components/map/Map';
+// import Map from './components/map/Map';
 import Interest from './components/interest/Interest';
 // import PhotoViewer from './components/photoViewer/PhotoViewer';
 import Gallery from './components/gallery/Gallery';
@@ -28,7 +28,7 @@ const App = () => {
       {/* <Portfolio /> */}
       <Testimonials />
       <Contact />
-	  <Map/>
+	  {/* <Map/> */}
       <Footer />
     </>
   )

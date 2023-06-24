@@ -37,3 +37,11 @@ div.gallery_icons:hover {
   .desc {
     font-size: small;
 }
+
+@media screen and (max-width: 1024px){
+    
+}
+  
+@media screen and (max-width: 600px){
+   
+}

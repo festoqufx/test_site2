@@ -78,3 +78,12 @@ textarea {
         width: var(--container-width-sm);
     }
 }
+
+iframe.gmap_iframe {
+    height: 580px;
+	border-radius: 1.2rem;
+}
+
+.gmap_canvas {
+    height: 600px;
+}
