@@ -190,7 +190,7 @@ ul.skills li:after {
 	content: "";
 	height: 11px;
 	margin: 0 0 2px 0;
-	background: #6e6e6e;
+	background: #ffffff;
 	position: absolute;
 	box-shadow: 0px 0px 10px 1px #fff;
 	left: 3px;
@@ -201,12 +201,12 @@ ul.skills li:after {
 }
 
 ul.skills2 li:after {
-	background: #6e6e6e;
+	background: #ffffff;
 	box-shadow: 0px 0px 10px 1px #fff;
 }
 
 ul.skills3 li:after {
-	background: #6e6e6e;
+	background: #ffffff;
 	box-shadow: 0px 0px 10px 1px #fff;
 }
 
