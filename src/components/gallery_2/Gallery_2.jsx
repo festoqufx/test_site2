@@ -85,6 +85,8 @@ const Gallery_2 = () => {
         </SwiperSlide>
       </Swiper>
       </>
+		<p>&nbsp;</p><p>&nbsp;</p>
+	  <button className="button1"><span><a href="https://ferdinandestoque.netlify.app/" target="_blank" style={{ color: "#000000"}} >my old portfolio</a></span></button>
       </div>
     </section>
   )
