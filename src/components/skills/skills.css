@@ -24,6 +24,10 @@
     background: white;
 }
 
+section#Skills {
+    margin-top: 0rem !important;
+}
+
 
 .content_box {
     width: 80vw;
