@@ -47,6 +47,10 @@
         grid-template-columns: 1fr 1fr;
         gap: 1.2rem;
     }
+
+	section#Web\ Portfolio {
+		margin: 1222px 0 0 0;
+	}
 }
   
 @media screen and (max-width: 600px){
@@ -54,4 +58,9 @@
         grid-template-columns: 1fr;
         gap: 1rem;
     }
+	section#Web\ Portfolio {
+		margin: 1381px 0 0 0 !important;
+	}
+	
+	[dat
 }

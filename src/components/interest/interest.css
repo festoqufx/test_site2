@@ -85,4 +85,8 @@ div.gallery_icons:hover {
 		float: left;
 		width: 18%;
 	}
+
+	section#interest {
+		margin: 215px 0 0 0;
+	}
 }

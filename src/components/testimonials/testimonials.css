@@ -23,8 +23,15 @@
     background: var(--color-bg-variant);
     text-align: center;
     padding: 2rem;
-    border-radius: 2rem;
+    /* border-radius: 2rem; */
     user-select: none;
+}
+
+.swiper-backface-hidden .swiper-slide {
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    border-bottom: 5px solid white !important;
+    border-top: 5px solid white !important;
 }
 
 .client__review {
@@ -53,4 +60,12 @@
     .client__review {
         width: var(--container-width-sm);
     }
+
+	.swiper-backface-hidden .swiper-slide {
+		transform: translateZ(0);
+		backface-visibility: hidden;
+		height: 424px;
+		border-bottom: 5px solid white !important;
+		border-top: 5px solid white !important;
+	}
 }

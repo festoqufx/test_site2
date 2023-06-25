@@ -74,14 +74,21 @@ img {
 		margin: 1425px 0 0 0;
 		height: 33vh;
 	}
-	/* .swiper-slide, swiper-slide {
+
+
+	.swiper.swiper-coverflow.swiper-3d.swiper-initialized.swiper-horizontal.swiper-watch-progress.mySwiper .swiper-wrapper {
+		margin: 13px 0 0 0;
+	}
+
+	
+	.swiper.swiper-coverflow.swiper-3d.swiper-initialized.swiper-horizontal.swiper-watch-progress.mySwiper .swiper-wrapper .swiper-slide, swiper-slide {
 		flex-shrink: 0;
-		width: 271% !important;
+		width: 380% !important;
 		height: 100%;
 		position: relative;
 		transition-property: transform;
 		display: block;
-	} */
+	}
 	/* .swiper-pagination {
 		position: absolute;
 		text-align: center;

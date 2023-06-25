@@ -10,9 +10,10 @@
   text-decoration: none;
 }
 
+/* background: linear-gradient(0deg, var(--c1) 0 10px, var(--b2) 0 calc(100% - 10px), var(--c1) 0 100%); */
 :root {
   --color-bg: #000000;
-  --color-bg-variant: #3c3c3c;
+  --color-bg-variant: linear-gradient(0deg, var(--c1) 0 10px, var(--b2) 0 calc(100% - 10px), var(--c1) 0 100%);
   --color-primary: #BEBEBE;
   --color-primary-variant: #F0F0F0;
   --color-white: #fff;

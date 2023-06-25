@@ -47,7 +47,6 @@ const Contact = () => {
         </div>
         <form ref={formRef} onSubmit={handleSubmit}>
 
-
 		<article className="contact__option">
             <MdOutlineEmail className="contact__option-icon" />
             <h4>Email</h4>

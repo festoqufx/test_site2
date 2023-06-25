@@ -98,4 +98,7 @@
     .about__content p {
         margin: 1.5rem 0;
     }
+	section#about {
+		margin: -99px 0 0 0;
+	}
 }
