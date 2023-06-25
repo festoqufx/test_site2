@@ -6,6 +6,7 @@ import Header from './components/header/Header';
 import Intro from './components/intro/Intro';
 // import Map from './components/map/Map';
 import Interest from './components/interest/Interest';
+import Tagcloud from './components/tagCloud/Tagcloud';
 import Skills from './components/skills/Skills';
 // import PhotoViewer from './components/photoViewer/PhotoViewer';
 import Gallery_2 from './components/gallery_2/Gallery_2';
@@ -22,6 +23,7 @@ const App = () => {
       <Topbar />
       <Intro />
 	  <Timeline1 />
+	  <Tagcloud />
 	  <Skills/>
       {/* <Experience /> */}
 	  <Gallery_2 />
