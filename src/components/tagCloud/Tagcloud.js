@@ -55,8 +55,13 @@ export default function Tagcloud() {
   }, []);
 
   return (
+   <div className='tag_cloud'>
+	<p>&nbsp;</p><p>&nbsp;</p>
+	<h5>The Skills I Have</h5>
+      <h2>Skills</h2><p>&nbsp;</p>
         <div className='tagCloud_Container'>
           <span className="tagcloudanimation"></span>
         </div>
+		</div>
   )
 }

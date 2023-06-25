@@ -4,9 +4,7 @@ import './skills.css';
 const Skills = () => {
   return (
     <section id="Skills">
-      <h5>The Skills I Have</h5>
-      <h2>Skills</h2>
-	  <p>&nbsp;</p>
+     
 	  <div className="content_box">
       <div className="profile-skills">
 		

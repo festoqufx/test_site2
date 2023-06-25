@@ -66,15 +66,15 @@ img {
 	/* section#Web\ Portfolio {
 		margin: 1222px 0 0 0;
 	} */
-	section#Web\ Portfolio {
+	/* section#Web\ Portfolio {
 		margin: 176px 0 0 0 !important;
-	}
+	} */
 }
   
 @media screen and (max-width: 600px){
   
 	section#Web\ Portfolio {
-		margin: 1425px 0 0 0 !important;
+		margin: 1400px 0 0 0 !important;
 		height: 33vh;
 	}
 
