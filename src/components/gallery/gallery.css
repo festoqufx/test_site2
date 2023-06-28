@@ -1,26 +1,25 @@
 .swiper {
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-  
-  .swiper-slide {
-    background-position: center;
-    background-size: cover;
-    width: 300px;
-    height: 300px;
-  }
-  
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-    margin: 0 auto;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-  :root {
-    --swiper-theme-color: #ffffff !important;
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
 }
-  
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+
+:root {
+  --swiper-theme-color: #ffffff !important;
+}
 
 .swiper-wrapper {
   position: relative;
@@ -38,7 +37,7 @@
   position: relative;
   overflow: hidden;
   list-style: none;
-  padding: 19px 0 0 0!important;
+  padding: 19px 0 0 0 !important;
   z-index: 1;
   height: 375px !important;
 }
@@ -49,32 +48,33 @@ img {
   object-fit: cover;
 }
 
-
 .swiper-pagination-bullet {
-  width: var(--swiper-pagination-bullet-width,var(--swiper-pagination-bullet-size,8px));
-  height: var(--swiper-pagination-bullet-height,var(--swiper-pagination-bullet-size,8px));
+  width: var(
+    --swiper-pagination-bullet-width,
+    var(--swiper-pagination-bullet-size, 8px)
+  );
+  height: var(
+    --swiper-pagination-bullet-height,
+    var(--swiper-pagination-bullet-size, 8px)
+  );
   display: inline-block;
   border-radius: 50%;
   background: #f1f1f1 !important;
-  opacity: var(--swiper-pagination-bullet-inactive-opacity, .2);
+  opacity: var(--swiper-pagination-bullet-inactive-opacity, 0.2);
 }
 
-
-
-@media screen and (max-width: 1024px){
-
-	section#Web\ Portfolio {
-		margin: 1222px 0 0 0;
-	}
+@media screen and (max-width: 1024px) {
+  section#Web\ Portfolio {
+    margin: 1222px 0 0 0;
+  }
 }
-  
-@media screen and (max-width: 600px){
-  
-	section#Web\ Portfolio {
-		margin: 1425px 0 0 0;
-		height: 33vh;
-	}
-	/* .swiper-slide, swiper-slide {
+
+@media screen and (max-width: 600px) {
+  section#Web\ Portfolio {
+    margin: 1425px 0 0 0;
+    height: 33vh;
+  }
+  /* .swiper-slide, swiper-slide {
 		flex-shrink: 0;
 		width: 271% !important;
 		height: 100%;
@@ -82,7 +82,7 @@ img {
 		transition-property: transform;
 		display: block;
 	} */
-	/* .swiper-pagination {
+  /* .swiper-pagination {
 		position: absolute;
 		text-align: center;
 		transition: .3s opacity;

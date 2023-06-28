@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Orbitron:400,500,700,900');
+@import url("https://fonts.googleapis.com/css?family=Orbitron:400,500,700,900");
 
 * {
   margin: 0;
@@ -13,9 +13,14 @@
 /* background: linear-gradient(0deg, var(--c1) 0 10px, var(--b2) 0 calc(100% - 10px), var(--c1) 0 100%); */
 :root {
   --color-bg: #000000;
-  --color-bg-variant: linear-gradient(0deg, var(--c1) 0 10px, var(--b2) 0 calc(100% - 10px), var(--c1) 0 100%);
-  --color-primary: #BEBEBE;
-  --color-primary-variant: #F0F0F0;
+  --color-bg-variant: linear-gradient(
+    0deg,
+    var(--c1) 0 10px,
+    var(--b2) 0 calc(100% - 10px),
+    var(--c1) 0 100%
+  );
+  --color-primary: #bebebe;
+  --color-primary-variant: #f0f0f0;
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
 
@@ -35,7 +40,7 @@ html {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
@@ -75,12 +80,12 @@ section > h2 {
 }
 
 .text-light {
-  color: var(--color-primary)
+  color: var(--color-primary);
 }
 
 a {
   transition: var(--transition);
-  color: var(--color-primary)
+  color: var(--color-primary);
 }
 
 a:hover {
@@ -115,7 +120,7 @@ a:hover {
   object-fit: cover;
 } */
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
   .container {
     width: var(--container-width-md);
   }
@@ -125,7 +130,7 @@ a:hover {
   }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
   .container {
     width: var(--container-width-sm);
   }
@@ -135,13 +140,12 @@ a:hover {
   }
 }
 
-
 .parallax {
   /* The image used */
-  background-image: url('./assets/BG1.png');
+  background-image: url("./assets/BG1.png");
 
   /* Full height */
-  height: 100%; 
+  height: 100%;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;

@@ -1,32 +1,32 @@
 import React, { useEffect } from "react";
 import { FaAward } from "react-icons/fa";
 import { VscFolderLibrary } from "react-icons/vsc";
-import ME from '../../assets/Raven.png';
+import ME from "../../assets/Raven.png";
 import "./intro.css";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Intro = () => {
   useEffect(() => {
     AOS.init({
       offset: 200,
       duration: 600,
-      easing: 'ease-in-sine',
-      delay: 100,});
+      easing: "ease-in-sine",
+      delay: 100,
+    });
   }, []);
   return (
     <section data-aos="zoom-in-up" id="about">
       <p>&nbsp;</p>
       <h2>About Me</h2>
-     
+
       <p>&nbsp;</p>
       <p>&nbsp;</p>
-      
+
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={ME} alt="" style={{ borderradius:"1rem"}}/>
+            <img src={ME} alt="" style={{ borderradius: "1rem" }} />
           </div>
         </div>
         <div className="about__content">
@@ -43,8 +43,8 @@ const Intro = () => {
             </article>
           </div>
           <p>
-            10+ years experienced Front End Developer with hands-on experience in
-            identifying web-based user interactions along with designing and
+            10+ years experienced Front End Developer with hands-on experience
+            in identifying web-based user interactions along with designing and
             implementing highly-responsive user interface components by
             deploying React concepts. Proficient in translating designs and
             wireframes into high-quality code, and writing application interface

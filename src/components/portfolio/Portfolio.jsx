@@ -34,7 +34,8 @@ const Portfolio = () => {
       id: 3,
       title: "RubyCode Blog Project",
       img: IMG2,
-      description: "This site is a kind of social media platform. You can register and share your posts.",
+      description:
+        "This site is a kind of social media platform. You can register and share your posts.",
       technologies: "React | Redux",
       link: "https://github.com/Rasif-Taghizada/RubyCode-Blog",
       github: "https://github.com/Rasif-Taghizada/RubyCode-Blog",
