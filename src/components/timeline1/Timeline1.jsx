@@ -123,7 +123,7 @@ const Timeline1 = () => {
         >
           <h3 className="vertical-timeline-element-title">SPI GLOBAL</h3>
           <h5 className="vertical-timeline-element-subtitle">
-            BACK-END WEB DEVELOPER
+            CONTENT ANALYST
           </h5>
           <h6>
             Laravel, MySQL, MsSQL, Postgres, Wordpress, Bootstrap, HTML5, CSS,
