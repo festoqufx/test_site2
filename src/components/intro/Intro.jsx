@@ -5,7 +5,6 @@ import ME from "../../assets/Raven.png";
 import "./intro.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
 const Intro = () => {
   useEffect(() => {
     AOS.init({
@@ -19,10 +18,8 @@ const Intro = () => {
     <section data-aos="zoom-in-up" id="about">
       <p>&nbsp;</p>
       <h2>About Me</h2>
-
       <p>&nbsp;</p>
       <p>&nbsp;</p>
-
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
