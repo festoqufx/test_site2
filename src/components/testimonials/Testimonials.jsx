@@ -1,7 +1,6 @@
 import React from "react";
 import { BsLinkedin } from "react-icons/bs";
 import { Pagination } from "swiper";
-
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
