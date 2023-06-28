@@ -16,10 +16,16 @@
 
 div.gallery_icons {
   margin: 5px;
-  border: 1px solid #ccc;
+  /* border: 1px solid #ccc; */
   float: left;
   width: 10%;
-  border-radius: 1rem;
+  /* border-radius: 1rem; */
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgb(171 171 171 / 37%);
+  backdrop-filter: blur(16.5px);
+  -webkit-backdrop-filter: blur(16.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 div.gallery_icons:hover {
