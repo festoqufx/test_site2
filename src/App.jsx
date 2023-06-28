@@ -6,7 +6,7 @@ import Header from "./components/header/Header";
 import Intro from "./components/intro/Intro";
 // import Map from './components/map/Map';
 import Interest from "./components/interest/Interest";
-import Tagcloud from "./components/tagcloud/Tagcloud";
+import Tagcloud from "./components/tagCloud/Tagcloud";
 import Skills from "./components/skills/Skills";
 // import PhotoViewer from './components/photoViewer/PhotoViewer';
 import Gallery2 from "./components/gallery2/Gallery_2";
