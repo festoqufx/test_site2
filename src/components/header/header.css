@@ -12,6 +12,10 @@ h1.big-text {
   font-size: 3.5rem;
 }
 
+div#tsparticles {
+  height: 815px;
+}
+
 .mousey {
   width: 3px;
   padding: 10px 15px;
@@ -128,7 +132,7 @@ img.main-logo {
       transform: rotate(90deg);
       font-weight: 300;
       font-size: 0.9rem;
-      display: none;
+      display: none !important;
     }
   }
   .react-rotating-text-cursor {
