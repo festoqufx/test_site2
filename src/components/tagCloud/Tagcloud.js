@@ -43,6 +43,7 @@ export default function Tagcloud() {
       "Tailwindcss",
       "Bootstrap",
     ];
+
     const options = {
       radius: 360,
       maxSpeed: "fast",
@@ -52,6 +53,7 @@ export default function Tagcloud() {
     };
     TagCloud(container, texts, options);
   }, []);
+
   return (
     <div className="tag_cloud">
       <p>&nbsp;</p>
