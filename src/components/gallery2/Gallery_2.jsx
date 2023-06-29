@@ -18,7 +18,7 @@ const Gallery_2 = () => {
     });
   }, []);
   return (
-    <section data-aos="fade-down-right" id="Web Portfolio">
+    <section data-aos="fade-down-right" className="Web_Portfolio">
       <h2>Portfolio</h2>
       <h5>Scroll the images to the left</h5>
       <p>&nbsp;</p>
