@@ -353,11 +353,11 @@ ul.skills li.sk-pug {
 .profile-skills label {
   background: var(--w1);
   position: absolute;
-  top: -58px;
-  left: 19px;
+  top: -42px;
+  left: 23px;
   z-index: 2;
-  width: 65px;
-  height: 65px;
+  width: 50px;
+  height: 50px;
   border-radius: 100%;
   cursor: pointer;
   transition: var(--t1);
@@ -374,8 +374,8 @@ ul.skills li.sk-pug {
   border-top-width: 0;
   border-right-width: 0;
   transform: rotate(-45deg);
-  width: 33px;
-  height: 22px;
+  width: 19px;
+  height: 11px;
   border-radius: 2px;
   transition: var(--t1);
 }
@@ -616,4 +616,8 @@ ul.skills li.more input:checked + label:hover {
   content: "";
   clear: both;
   display: table;
+}
+
+.clearfix {
+  overflow: auto;
 }
