@@ -132,10 +132,16 @@ const Timeline1 = () => {
           <h6>Fulltime</h6>
         </VerticalTimelineElement>
         <VerticalTimelineElement
+          className="timeline_none"
           iconStyle={{ background: "#F0F0F0", color: "#000000" }}
           icon={<AiTwotoneStar />}
         />
       </VerticalTimeline>
+
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
     </section>
   );
 };

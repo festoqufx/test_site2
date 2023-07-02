@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+.timeline_none.vertical-timeline-element.vertical-timeline-element--no-children
+  .vertical-timeline-element-content.bounce-in {
+  display: none;
+}
+
 .vertical-timeline {
   width: 95%;
   max-width: 1170px;
@@ -687,6 +692,12 @@
   border-radius: 0.25em;
   padding: 1em;
   box-shadow: 0 3px 0 #ddd;
+  background: rgba(255, 255, 255, 0.22);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.9px);
+  -webkit-backdrop-filter: blur(3.9px);
+  border: 1px solid rgba(255, 255, 255, 0.85);
 }
 .vertical-timeline--one-column-right .vertical-timeline-element-content {
   margin-right: 60px;
