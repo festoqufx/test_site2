@@ -116,10 +116,17 @@ img.main-logo {
   section {
     margin-top: 6rem;
   }
+  div#tsparticles {
+    height: 119%;
+  }
 }
 @media screen and (max-width: 600px) {
   header {
-    height: 100vh;
+    height: 140vh;
+  }
+
+  div#tsparticles {
+    height: 129%;
   }
   .header__socials,
   .scroll__down1 {
