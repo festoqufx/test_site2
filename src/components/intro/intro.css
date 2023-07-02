@@ -1,3 +1,13 @@
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
 .about__container {
   display: grid;
   grid-template-columns: 27% 50%;

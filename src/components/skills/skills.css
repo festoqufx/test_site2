@@ -611,3 +611,9 @@ ul.skills li.more input:checked + label:hover {
 	}
 }
 */
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}

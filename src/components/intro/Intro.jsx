@@ -58,6 +58,7 @@ const Intro = () => {
             Let's Talk
           </a>
         </div>
+        <div className="clearfix"></div>
       </div>
     </section>
   );

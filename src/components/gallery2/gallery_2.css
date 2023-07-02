@@ -118,6 +118,10 @@ section.Web_Portfolio.aos-init.aos-animate {
     margin: 0 auto;
     width: 136%;
   }
+
+  section.Web_Portfolio.aos-init.aos-animate {
+    margin: 1447px 0 0;
+  }
 }
 @media screen and (max-width: 600px) {
   section#Web\ Portfolio {

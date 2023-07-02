@@ -110,6 +110,8 @@ const Skills = () => {
           </div>
         </div>
       </div>
+
+      <div className="clearfix"></div>
     </section>
   );
 };
