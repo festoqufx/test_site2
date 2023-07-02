@@ -132,7 +132,7 @@ const Header = () => {
         <p>&nbsp;</p>
         <p>&nbsp;</p>
         <img className="main-logo" src={logo} alt="" />
-        <h1 className="big-text text-flicker-out-glow">FERDINAND ESTOQUE</h1>
+        <h1 className="text-flicker-out-glow">FERDINAND ESTOQUE</h1>
         <p>&nbsp;</p>
 
         <h5>a.k.a.</h5>
