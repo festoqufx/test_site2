@@ -227,3 +227,13 @@ html {
   position: relative;
   z-index: 30;
 }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.clearfix {
+  overflow: auto;
+}

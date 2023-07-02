@@ -30,6 +30,7 @@ const Intro = () => {
               className="img_raven"
             />
           </div>
+          <div className="clearfix"></div>
         </div>
         <div className="about__content">
           <div className="about__cards">

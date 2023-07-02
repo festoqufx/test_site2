@@ -179,6 +179,7 @@ const Header = () => {
         </a>
         <HeaderSocials />
       </div>
+      <div className="clearfix"></div>
     </header>
   );
 };
