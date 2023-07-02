@@ -35,6 +35,8 @@ const Gallery_2 = () => {
       <p>&nbsp;</p>
       <p>&nbsp;</p>
       <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
       <h2>Portfolio</h2>
       <h5>Scroll the images to the left</h5>
       <p>&nbsp;</p>
