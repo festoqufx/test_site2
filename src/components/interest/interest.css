@@ -29,8 +29,12 @@ div.gallery_icons {
 }
 
 div.gallery_icons:hover {
-  border: 1px solid #959595;
-  box-shadow: 5px 5px 5px #bebebe, -2px 2px 2px #ffffff;
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.6px);
+  -webkit-backdrop-filter: blur(2.6px);
+  border: 3px solid rgba(255, 255, 255, 0.85);
 }
 
 div.gallery_icons img {
@@ -41,7 +45,7 @@ div.gallery_icons img {
 div.desc {
   padding: 15px;
   text-align: center;
-  font-size: 1rem;
+  font-size: 0.7rem;
 }
 
 .clear {
