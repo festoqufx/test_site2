@@ -7,6 +7,19 @@ import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import { EffectCoverflow, Pagination } from "swiper";
+import $ from "jquery";
+
+$(window).ready(function () {
+  $(".boton").wrapInner("<div class=botontext></div>");
+
+  $(".botontext").clone().appendTo($(".boton"));
+
+  $(".boton").append(
+    '<span class="twist"></span><span class="twist"></span><span class="twist"></span><span class="twist"></span>'
+  );
+
+  $(".twist").css("width", "25%").css("width", "+=3px");
+});
 
 const Gallery_2 = () => {
   useEffect(() => {
@@ -82,10 +95,20 @@ const Gallery_2 = () => {
             <img src={"/web/14.png"} alt="" />
           </SwiperSlide>
         </Swiper>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
 
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <button className="button1">
+        <a
+          className="boton"
+          href="https://ferdinandestoque.netlify.app/"
+          target="_blank"
+          style={{ color: "#000000" }}
+          rel="noreferrer"
+        >
+          my old portfolio
+        </a>
+
+        {/* <button className="button1">
           <span>
             <a
               href="https://ferdinandestoque.netlify.app/"
@@ -96,7 +119,7 @@ const Gallery_2 = () => {
               my old portfolio
             </a>
           </span>
-        </button>
+        </button> */}
       </div>
     </section>
   );
