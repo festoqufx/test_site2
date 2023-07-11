@@ -58,6 +58,7 @@ const Contact = () => {
             <MdOutlineEmail className="contact__option-icon" />
             <h4>Email</h4>
             <h5>ferdinand.estoque@yahoo.com</h5>
+            <h5>+63 9958143127</h5>
             <a href="mailto:ferdinand.estoque@yahoo.com">Send a message</a>
           </article>
           <input
