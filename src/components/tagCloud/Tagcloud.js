@@ -9,7 +9,7 @@ export default function Tagcloud() {
 		"HTML5",
         "CSS",
         "SASS",
-		"NEXTJS",
+		"NextJS",
         "PHP",
         "Laravel",
         "NodeJS",
