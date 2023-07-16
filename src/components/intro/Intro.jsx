@@ -104,90 +104,13 @@ const Intro = () => {
 		</div>
   
     </article>
-{/* 
-      <div className="content_box_intro">
-        <div className="box_cube">
-          <div className="face1 color1">
-            <img src="./face/1.png" alt="" />
-          </div>
-          <div className="face2 color1">
-            <img src="./face/2.png" alt="" />
-          </div>
-          <div className="face3 color2">
-            <img src="./face/3.png" alt="" />
-          </div>
-          <div className="face4 color2">
-            <img src="./face/4.png" alt="" />
-          </div>
-          <div className="face5 color3">
-            <img src="./face/5.png" alt="" />
-          </div>
-          <div className="face6 color3">
-            <img src="./face/6.png" alt="" />
-          </div>
-        </div>
-      </div> */}
 
-      {/* <div className="clearfix"></div>
-      </div> */}
 
       <p>&nbsp;</p>
-	  <p>&nbsp;</p>
-	  <p>&nbsp;</p>
-	  <p>&nbsp;</p>
-	  <p>&nbsp;</p>
-	  <p>&nbsp;</p>
-	  <p>&nbsp;</p>
-	  <p>&nbsp;</p>
-	  <p>&nbsp;</p>
 
 
 
-      {/* <div className="flex-container">
-        <div className="content_box_intro">
-          <p style={{ margin: "0 auto", textAlign: "center", fontSize: "1.2rem" }}>
-            10+ years experienced Front End Developer with hands-on experience
-            in identifying web-based user interactions along with designing and
-            implementing highly-responsive user interface components by
-            deploying React concepts. Proficient in translating designs and
-            wireframes into high-quality code, and writing application interface
-            code via JavaScript and React JS workflows. Adept at monitoring and
-            maintaining frontend performance and troubleshooting and debugging
-            the same to bolster overall performance.
-          </p>
-
-          <p>&nbsp;</p>
-        </div>
-      </div> */}
-
-      {/* <div className="about__content">
-          <div className="about__cards">
-            <article className="about__card">
-              <FaAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>10+ years</small>
-            </article>
-            <article className="about__card">
-              <VscFolderLibrary className="about__icon" />
-              <h5>Projects</h5>
-              <small>10+ Completed Projects</small>
-            </article>
-          </div>
-          <p>
-            10+ years experienced Front End Developer with hands-on experience
-            in identifying web-based user interactions along with designing and
-            implementing highly-responsive user interface components by
-            deploying React concepts. Proficient in translating designs and
-            wireframes into high-quality code, and writing application interface
-            code via JavaScript and React JS workflows. Adept at monitoring and
-            maintaining frontend performance and troubleshooting and debugging
-            the same to bolster overall performance.
-          </p>
-          <a href="#contact" className="btn btn-primary">
-            Let's Talk
-          </a>
-        </div> */}
-      {/* <div className="clearfix"></div> */}
+    
     </section>
   );
 };
