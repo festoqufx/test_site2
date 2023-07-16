@@ -19,7 +19,7 @@ const Timeline1 = () => {
     });
   }, []);
   return (
-    <section className="parallax">
+    <section className="parallax" id="experience">
       <p>&nbsp;</p>
       <h2 data-aos="zoom-in-up">Timeline</h2>
       <p>&nbsp;</p>

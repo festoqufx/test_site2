@@ -31,7 +31,7 @@ const Gallery_2 = () => {
     });
   }, []);
   return (
-    <section data-aos="fade-down-right" className="Web_Portfolio">
+    <section data-aos="fade-down-right" className="Web_Portfolio" id="portfolio" >
       <p>&nbsp;</p>
       <p>&nbsp;</p>
       <p>&nbsp;</p>

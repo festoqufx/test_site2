@@ -1,6 +1,6 @@
 import React, { useEffect, useCallback } from "react";
 import CTA from "./CTA";
-import HeaderSocials from "./HeaderSocials";
+// import HeaderSocials from "./HeaderSocials";
 // import ReactRotatingText from 'react-rotating-text'; // eslint-disabled-next-line
 import "./header.css";
 import logo from "../../assets/logo.png";
@@ -171,13 +171,14 @@ const Header = () => {
             </div>
           </div>
         </div>
-
+		<p>&nbsp;</p>
+    
         <CTA />
-
+{/* 
         <a href="#contact" className="scroll__down">
           Scroll Down
-        </a>
-        <HeaderSocials />
+        </a> */}
+        {/* <HeaderSocials /> */}
       </div>
       <div className="clearfix"></div>
     </header>
