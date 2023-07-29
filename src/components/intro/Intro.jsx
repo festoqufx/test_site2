@@ -16,6 +16,7 @@ const Intro = () => {
   }, []);
   return (
     <section data-aos="zoom-in-up" id="about">
+		    <div className="clearfix"></div>
       <p>&nbsp;</p>
       <h2>About Me</h2>
       <p>&nbsp;</p>
@@ -105,7 +106,7 @@ const Intro = () => {
   
     </article>
 
-
+    <div className="clearfix"></div>
       <p>&nbsp;</p>
 
 
