@@ -14,5 +14,15 @@
 	box-shadow: 0 0 2em 0.5em var(--color-primary);
 	background-color: var(--color-primary);
   }
+
+  .clearfix {
+	overflow: auto;
+  }
+
+  .clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
  
   @media screen and (max-width:1024px){.container{width:var(--container-width-md)}section{margin-top:6rem}}@media screen and (max-width:600px){.container{width:var(--container-width-sm)}section>h2{margin-bottom:2rem}}.parallax{background-image:url("./assets/BG1.png");height:100%;background-attachment:fixed;background-position:center;background-repeat:no-repeat;background-size:cover}

@@ -20,6 +20,7 @@ const Timeline1 = () => {
   }, []);
   return (
     <section className="parallax" id="experience">
+		<div className="clearfix"></div>
       <p>&nbsp;</p>
       <h2 data-aos="zoom-in-up">Timeline</h2>
       <p>&nbsp;</p>
