@@ -10,7 +10,7 @@ import Tagcloud from "./components/tagCloud/Tagcloud";
 import Skills from "./components/skills/Skills";
 // import PhotoViewer from './components/photoViewer/PhotoViewer';
 import Gallery2 from "./components/gallery2/Gallery2";
-// import Portfolio from './components/portfolio/Portfolio';
+import Portfolio from './components/portfolio/Portfolio';
 import Timeline1 from "./components/timeline1/Timeline1";
 import Testimonials from "./components/testimonials/Testimonials";
 import Topbar from "./components/topbar/Topbar";
@@ -22,13 +22,14 @@ const App = () => {
       <Topbar />
       <Intro />
       <Timeline1 />
+	  <Portfolio />
       <Tagcloud />
       <Skills />
       {/* <Experience /> */}
       <Gallery2 />
       {/* <PhotoViewer/> */}
       <Interest />
-      {/* <Portfolio /> */}
+   
       <Testimonials />
       <Contact />
       {/* <Map/> */}
