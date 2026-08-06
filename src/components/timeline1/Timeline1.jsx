@@ -1,7 +1,5 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./timeline1.css";
-import AOS from "aos";
-import "aos/dist/aos.css";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -10,14 +8,6 @@ import { FaReact } from "react-icons/fa";
 import { BsWordpress } from "react-icons/bs";
 import { AiTwotoneStar } from "react-icons/ai";
 const Timeline1 = () => {
-  useEffect(() => {
-    AOS.init({
-      offset: 200,
-      duration: 600,
-      easing: "ease-in-sine",
-      delay: 100,
-    });
-  }, []);
   return (
     <section className="parallax" id="experience">
 		<div className="clearfix"></div>

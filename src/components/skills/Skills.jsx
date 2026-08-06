@@ -9,7 +9,7 @@ const Skills = () => {
           <div className="cntnt_box">
             <input type="checkbox" id="sk1" />
             <div className="white_background">&nbsp;</div>
-            <label for="sk1"></label>
+            <label htmlFor="sk1"></label>
             <ul className="skills skills1">
               <li className="sk-cms">
                 <span>CMS</span>
@@ -28,7 +28,7 @@ const Skills = () => {
               </li>
               <li className="more">
                 <input type="checkbox" id="more-con" />
-                <label for="more-con"></label>
+                <label htmlFor="more-con"></label>
                 <div>
                   <span>PHOTO</span>
                   <span>API</span>
@@ -43,7 +43,7 @@ const Skills = () => {
           <div className="cntnt_box">
             <input type="checkbox" id="sk2" />
             <div className="white_background">&nbsp;</div>
-            <label for="sk2"></label>
+            <label htmlFor="sk2"></label>
             <ul className="skills skills2">
               <li className="sk-gim">
                 <span>Figma</span>
@@ -62,7 +62,7 @@ const Skills = () => {
               </li>
               <li className="more">
                 <input type="checkbox" id="more-pro" />
-                <label for="more-pro"></label>
+                <label htmlFor="more-pro"></label>
                 <div>
                   <span>Sitefinity</span>
                   <span>Vercel</span>
@@ -77,7 +77,7 @@ const Skills = () => {
           <div className="cntnt_box">
             <input type="checkbox" id="sk3" />
             <div className="white_background">&nbsp;</div>
-            <label for="sk3"></label>
+            <label htmlFor="sk3"></label>
             <ul className="skills skills3">
               <li className="sk-css">
                 <span>REACT</span>
@@ -96,7 +96,7 @@ const Skills = () => {
               </li>
               <li className="more">
                 <input type="checkbox" id="more-len" />
-                <label for="more-len"></label>
+                <label htmlFor="more-len"></label>
                 <div>
                   <span>JS</span>
                   <span>Laravel</span>

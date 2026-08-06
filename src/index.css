@@ -26,3 +26,6 @@
   }
  
   @media screen and (max-width:1024px){.container{width:var(--container-width-md)}section{margin-top:6rem}}@media screen and (max-width:600px){.container{width:var(--container-width-sm)}section>h2{margin-bottom:2rem}}.parallax{background-image:url("./assets/BG1.png");height:100%;background-attachment:fixed;background-position:center;background-repeat:no-repeat;background-size:cover}
+  section{text-align:center}
+  .tag_cloud h2,.tag_cloud h5{text-align:center;color:var(--color-light)}
+  .tag_cloud h2{color:var(--color-primary)}

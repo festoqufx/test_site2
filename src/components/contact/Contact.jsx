@@ -3,6 +3,10 @@ import emailjs from "@emailjs/browser";
 import { MdOutlineEmail } from "react-icons/md";
 import "./contact.css";
 
+const SERVICE_ID = process.env.REACT_APP_EMAILJS_SERVICE_ID;
+const TEMPLATE_ID = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
+const PUBLIC_KEY = process.env.REACT_APP_EMAILJS_PUBLIC_KEY;
+
 const Contact = () => {
   const [message, setMessage] = useState(false);
   const formRef = useRef();
@@ -11,10 +15,10 @@ const Contact = () => {
     setMessage(true);
     emailjs
       .sendForm(
-        "service_k2qawqh",
-        "template_c6rkpn6",
+        SERVICE_ID,
+        TEMPLATE_ID,
         formRef.current,
-        "X7K7ebhIeOy3YwHki"
+        PUBLIC_KEY
       )
       .then(
         (result) => {
@@ -42,12 +46,12 @@ const Contact = () => {
             <div className="gmap_canvas">
               <iframe
                 title="map"
-                class="gmap_iframe"
+                className="gmap_iframe"
                 width="100%"
-                frameborder="0"
+                frameBorder="0"
                 scrolling="no"
-                marginheight="0"
-                marginwidth="0"
+                marginHeight="0"
+                marginWidth="0"
                 src="https://maps.google.com/maps?width=2048&amp;height=800&amp;hl=en&amp;q=TEA garden imus&amp;t=p&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
               ></iframe>
             </div>
@@ -68,7 +72,7 @@ const Contact = () => {
             required
           />
           <input
-            type="text"
+            type="email"
             placeholder="Your Email"
             name="user_email"
             required

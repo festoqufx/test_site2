@@ -1,7 +1,5 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./interest.css";
-import AOS from "aos";
-import "aos/dist/aos.css";
 import icons_1 from "../../assets/icons/icons_1.png";
 import icons_2 from "../../assets/icons/icons_2.png";
 import icons_3 from "../../assets/icons/icons_3.png";
@@ -14,14 +12,6 @@ import icons_9 from "../../assets/icons/icons_9.png";
 import icons_10 from "../../assets/icons/icons_10.png";
 
 const Interest = () => {
-  useEffect(() => {
-    AOS.init({
-      offset: 200,
-      duration: 600,
-      easing: "ease-in-sine",
-      delay: 100,
-    });
-  }, []);
   return (
     <section data-aos="zoom-out-up" id="interest">
       <h2>Hobbies & Interest</h2>

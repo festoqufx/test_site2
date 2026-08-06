@@ -1,33 +1,19 @@
-import React, { useEffect, useCallback } from "react";
+import React, { useCallback } from "react";
 import CTA from "./CTA";
-// import HeaderSocials from "./HeaderSocials";
-// import ReactRotatingText from 'react-rotating-text'; // eslint-disabled-next-line
 import "./header.css";
 import logo from "../../assets/logo.png";
 import iconbanner from "../../assets/wing.png";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import ReactRotatingText from "react-rotating-text";
 
 const Header = () => {
-  useEffect(() => {
-    AOS.init({
-      offset: 200,
-      duration: 600,
-      easing: "ease-in-sine",
-      delay: 100,
-    });
-  }, []);
-  var ReactRotatingText = require("react-rotating-text");
 
   const particlesInit = useCallback(async (engine) => {
-    console.log(engine);
     await loadFull(engine);
   }, []);
 
-  const particlesLoaded = useCallback(async (container) => {
-    await console.log(container);
+  const particlesLoaded = useCallback(async (_container) => {
   }, []);
 
   return (
@@ -162,9 +148,9 @@ const Header = () => {
         <p>&nbsp;</p>
         <p>&nbsp;</p>
 
-        <div class="scroll-downs">
-          <div class="mousey">
-            <div class="scroller">
+        <div className="scroll-downs">
+          <div className="mousey">
+            <div className="scroller">
               <a href="#contact" className="scroll__down1">
                 &nbsp;
               </a>

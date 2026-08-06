@@ -1,7 +1,5 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./gallery_2.css";
-import AOS from "aos";
-import "aos/dist/aos.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
@@ -22,14 +20,6 @@ $(window).ready(function () {
 });
 
 const Gallery_2 = () => {
-  useEffect(() => {
-    AOS.init({
-      offset: 200,
-      duration: 200,
-      easing: "ease-in-sine",
-      delay: 10,
-    });
-  }, []);
   return (
     <section data-aos="fade-down-right" className="Web_Portfolio" id="portfolio" >
       <p>&nbsp;</p>
