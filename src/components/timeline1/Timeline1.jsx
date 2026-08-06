@@ -37,7 +37,7 @@ const Timeline1 = () => {
           iconStyle={{ background: "#F0F0F0", color: "#000" }}
           icon={<BsWordpress />}
         >
-          <h3 className="vertical-timeline-element-title">Visa</h3>
+          <h3 className="vertical-timeline-element-title">Visa/Teleperformance</h3>
           <h5 className="vertical-timeline-element-subtitle">
             DIGITAL CONTENT MANAGER/IMPLEMENTATION ANALAYST
           </h5>
