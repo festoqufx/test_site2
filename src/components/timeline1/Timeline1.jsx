@@ -39,17 +39,17 @@ const Timeline1 = () => {
         >
           <h3 className="vertical-timeline-element-title">Visa</h3>
           <h5 className="vertical-timeline-element-subtitle">
-            DIGITAL CONTENT MANAGER/Implementation Analyst
+            DIGITAL CONTENT MANAGER/IMPLEMENTATION ANALAYST
           </h5>
           <h6>
-            AEM, Visual Studio, Bastion Host, Bootstrap, HTML5, CSS, JS,
+            AEM, Visual Studio, Jenkins, Github, React, JS,
             SharePoint
           </h6>
           <h6>Fulltime</h6>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="OCT 2015 - JULY 2016"
+          date="NOV 2015 - JULY 2016"
           iconStyle={{ background: "#F0F0F0", color: "#000" }}
           icon={<FaReact />}
         >
@@ -67,7 +67,7 @@ const Timeline1 = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="MAY 2015 - SEPT 2015"
+          date="APR 2015 - OCT 2015"
           iconStyle={{ background: "#F0F0F0", color: "#000" }}
           icon={<FaReact />}
         >
@@ -101,7 +101,7 @@ const Timeline1 = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="SEPT 2013 - OCT 2014"
+          date="JUL 2013 - OCT 2014"
           iconStyle={{ background: "#F0F0F0", color: "#000" }}
           icon={<BsWordpress />}
         >
@@ -118,13 +118,13 @@ const Timeline1 = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="FEB 2008 - APR 2013"
+          date="SEP 2007 - MAY 2013"
           iconStyle={{ background: "#F0F0F0", color: "#000" }}
           icon={<BsWordpress />}
         >
           <h3 className="vertical-timeline-element-title">SPI GLOBAL</h3>
           <h5 className="vertical-timeline-element-subtitle">
-            CONTENT ANALYST
+            SENIOR (Web) CONTENT ANALYST
           </h5>
           <h6>
             Laravel, MySQL, MsSQL, Postgres, Wordpress, Bootstrap, HTML5, CSS,
